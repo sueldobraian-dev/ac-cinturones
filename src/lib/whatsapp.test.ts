@@ -11,7 +11,9 @@ describe("whatsapp utility getWhatsAppDispatchUrl", () => {
     description: "Cinturón de vaqueta",
     category: "Clásicos",
     sizes: ["85", "90"],
-    images: ["/image.jpg"]
+    images: ["/image.jpg"],
+    price: 22000,
+    width: "35 mm"
   };
 
   const mockProduct2: Product = {
@@ -21,7 +23,9 @@ describe("whatsapp utility getWhatsAppDispatchUrl", () => {
     description: "Cinturón trenzado",
     category: "Trenzados",
     sizes: ["90", "95"],
-    images: ["/image2.jpg"]
+    images: ["/image2.jpg"],
+    price: 22000,
+    width: "35 mm"
   };
 
   const mockCart: CartItem[] = [
@@ -56,7 +60,8 @@ describe("whatsapp utility getWhatsAppDispatchUrl", () => {
     const decodedUrl = decodeURIComponent(url);
     expect(decodedUrl).toContain("Test Comercio");
     expect(decodedUrl).toContain("Córdoba");
-    expect(decodedUrl).toContain("- *12* unidades de *Cinturón Vaqueta* (Talle: 90, Ref: AC-01)");
-    expect(decodedUrl).toContain("- *6* unidades de *Cinturón Trenzado* (Talle: 95, Ref: AC-02)");
+    expect(decodedUrl).toContain("- *12* u. de *Cinturón Vaqueta* (Talle: 90, Ref: AC-01) a $22.000/u.");
+    expect(decodedUrl).toContain("- *6* u. de *Cinturón Trenzado* (Talle: 95, Ref: AC-02) a $22.000/u.");
+    expect(decodedUrl).toContain("*Total Estimado:* $396.000");
   });
 });

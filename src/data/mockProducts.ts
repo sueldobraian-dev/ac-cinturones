@@ -8,6 +8,8 @@ export interface Product {
   category: string;
   sizes: string[];
   images: string[];
+  price: number;
+  width: string;
 }
 
 export const ALL_SIZES = ["85", "90", "95", "100", "105", "110", "115", "120"];
@@ -18,6 +20,8 @@ interface RawProduct {
   image: string;
   style: string;
   description: string;
+  price: number;
+  width: string;
 }
 
 export const mockProducts: Product[] = (rawProducts as RawProduct[]).map((p, index) => ({
@@ -27,7 +31,9 @@ export const mockProducts: Product[] = (rawProducts as RawProduct[]).map((p, ind
   description: p.description,
   category: p.style,
   sizes: ALL_SIZES,
-  images: [p.image]
+  images: [p.image],
+  price: p.price,
+  width: p.width
 }));
 
 export const WHATSAPP_CONTACT_NUMBER = process.env.NEXT_PUBLIC_WHATSAPP_CONTACT_NUMBER || "5491123456789";

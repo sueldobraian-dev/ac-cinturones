@@ -120,13 +120,35 @@ export default function QuoteDrawer({ isOpen, onClose }: QuoteDrawerProps) {
                               +
                             </button>
                           </div>
-                          <span className="text-xs font-bold text-stone-500">
-                            {item.quantity} unidades
-                          </span>
+                          <div className="text-right">
+                            <span className="block text-xs font-bold text-stone-900">
+                              ${(item.product.price * item.quantity).toLocaleString("es-AR")}
+                            </span>
+                            <span className="block text-[10px] text-stone-400 font-medium font-sans">
+                              ({item.quantity} u. a ${item.product.price.toLocaleString("es-AR")})
+                            </span>
+                          </div>
                         </div>
                       </div>
                     </div>
                   ))}
+                </div>
+
+                {/* Total Estimado */}
+                <div className="bg-stone-900 text-stone-100 rounded-xl p-4 flex items-center justify-between shadow-sm">
+                  <div>
+                    <span className="block text-[10px] font-bold text-amber-500 uppercase tracking-wider">Total Estimado ({totalItems} u.):</span>
+                    <span className="text-[9px] text-stone-400 font-sans block mt-0.5">Sujeto a confirmación de stock y curva</span>
+                  </div>
+                  <span className="text-lg font-extrabold text-white">
+                    ${cart.reduce((sum, item) => sum + item.product.price * item.quantity, 0).toLocaleString("es-AR")}
+                  </span>
+                </div>
+
+                {/* Nota de Descuento por Volumen */}
+                <div className="bg-emerald-50 text-emerald-850 rounded-xl p-3 border border-emerald-100/50 flex items-start gap-2.5 text-[11px] leading-relaxed font-medium">
+                  <span className="text-xs mt-0.5">💡</span>
+                  <span><strong>¡A mayor volumen, mejoramos el precio!</strong> Al enviar la consulta por WhatsApp calcularemos descuentos adicionales según el volumen total.</span>
                 </div>
 
                 {/* Info Mayorista Info Panel */}

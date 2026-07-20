@@ -3,6 +3,7 @@
 import React, { useState, useMemo } from "react";
 import { mockProducts } from "@/data/mockProducts";
 import ProductCard from "./ProductCard";
+import { Sparkles } from "lucide-react";
 
 export default function ProductGrid() {
   const [activeCategory, setActiveCategory] = useState<string>("Todos");
@@ -44,6 +45,22 @@ export default function ProductGrid() {
               {category}
             </button>
           ))}
+        </div>
+      </div>
+
+      {/* Banner de descuentos por volumen */}
+      <div className="bg-gradient-to-r from-amber-50 to-orange-50 border border-amber-200/40 rounded-2xl p-4 sm:p-5 flex flex-col sm:flex-row items-center justify-between gap-4 mb-8 shadow-sm">
+        <div className="flex items-center gap-3">
+          <div className="p-2.5 bg-amber-800 text-white rounded-xl">
+            <Sparkles size={18} />
+          </div>
+          <div>
+            <h4 className="text-sm font-bold text-amber-900 font-sans">Descuentos por Volumen de Compra</h4>
+            <p className="text-xs text-amber-800/80 font-medium">A mayor cantidad de unidades en tu lista de consulta, mejoramos tu presupuesto final.</p>
+          </div>
+        </div>
+        <div className="bg-amber-800/5 px-4 py-2 rounded-xl border border-amber-800/10 text-center sm:text-right">
+          <span className="text-xs font-bold text-amber-850">Consultá descuentos especiales por cantidad</span>
         </div>
       </div>
 

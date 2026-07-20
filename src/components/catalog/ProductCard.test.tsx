@@ -12,7 +12,9 @@ const mockProduct: Product = {
   description: "Cuero genuino",
   category: "Clásicos",
   sizes: ["85", "90", "95"],
-  images: ["/images/cintos/431.jpg"]
+  images: ["/images/cintos/431.jpg"],
+  price: 22000,
+  width: "35 mm"
 };
 
 describe("ProductCard UI component", () => {
@@ -25,7 +27,7 @@ describe("ProductCard UI component", () => {
 
     expect(screen.getByText("Cinturón de Vaqueta")).toBeDefined();
     expect(screen.getByText("Art. AC-01")).toBeDefined();
-    expect(screen.getByText("Clásicos")).toBeDefined();
+    expect(screen.getByText(/Clásicos/)).toBeDefined();
     expect(screen.getByText("85")).toBeDefined();
     expect(screen.getByText("90")).toBeDefined();
 

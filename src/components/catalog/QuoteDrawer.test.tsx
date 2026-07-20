@@ -12,7 +12,9 @@ const mockCartItem = {
     description: "Premium",
     category: "Clásicos",
     sizes: ["90"],
-    images: ["/image.jpg"]
+    images: ["/image.jpg"],
+    price: 22000,
+    width: "35 mm"
   },
   size: "90",
   quantity: 12
@@ -31,7 +33,7 @@ describe("QuoteDrawer UI component", () => {
     localStorage.clear();
     const { container } = render(
       <CartProvider>
-        <QuoteDrawer isOpen={false} onClose={() => {}} />
+        <QuoteDrawer isOpen={false} onClose={() => { }} />
       </CartProvider>
     );
     expect(container.firstChild).toBeNull();
@@ -40,20 +42,20 @@ describe("QuoteDrawer UI component", () => {
   it("renders cart items and contact form when open with items", () => {
     render(
       <CartProvider>
-        <QuoteDrawer isOpen={true} onClose={() => {}} />
+        <QuoteDrawer isOpen={true} onClose={() => { }} />
       </CartProvider>
     );
 
     expect(screen.getByText("Mi Lista de Consulta")).toBeDefined();
     expect(screen.getByText("Cinturón de Vaqueta")).toBeDefined();
-    expect(screen.getByText("12 unidades")).toBeDefined();
+    expect(screen.getByText("(12 u. a $22.000)")).toBeDefined();
     expect(screen.getByLabelText("Nombre / Razón Social")).toBeDefined();
   });
 
   it("submits contact form and redirects to WhatsApp", () => {
     render(
       <CartProvider>
-        <QuoteDrawer isOpen={true} onClose={() => {}} />
+        <QuoteDrawer isOpen={true} onClose={() => { }} />
       </CartProvider>
     );
 

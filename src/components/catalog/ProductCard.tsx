@@ -44,7 +44,7 @@ export default function ProductCard({ product }: ProductCardProps) {
       {/* Info */}
       <div className="flex flex-1 flex-col p-5">
         <span className="text-xs uppercase tracking-wider text-stone-400 font-semibold mb-1">
-          {product.category}
+          {product.category} • Pase {product.width}
         </span>
         <h3 className="font-serif text-lg font-medium text-stone-800 line-clamp-1 mb-2">
           {product.name}
@@ -53,9 +53,15 @@ export default function ProductCard({ product }: ProductCardProps) {
           {product.description}
         </p>
 
-        {/* Info de Venta Mayorista sin precios ficticios */}
-        <div className="mb-4 text-xs font-semibold text-amber-900 bg-amber-50/50 p-2.5 rounded-lg border border-amber-100/30 text-center">
-          Venta exclusivamente por bulto/curva
+        {/* Precio por unidad y aviso mayorista */}
+        <div className="mb-4 space-y-2">
+          <div className="flex items-center justify-between px-1">
+            <span className="text-xs text-stone-500 font-medium font-sans">Precio por unidad:</span>
+            <span className="text-base font-extrabold text-stone-900">${product.price.toLocaleString("es-AR")}</span>
+          </div>
+          <div className="text-[10px] font-bold text-amber-850 bg-amber-50/50 py-1.5 px-2.5 rounded-lg border border-amber-100/20 text-center uppercase tracking-wider">
+            Venta mayorista por bulto / curva
+          </div>
         </div>
 
         {/* Selectores */}
