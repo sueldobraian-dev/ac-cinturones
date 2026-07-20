@@ -1,0 +1,156 @@
+[
+  {
+    "article": "AC-219",
+    "name": "Cinto Trenzado France",
+    "description": "Cinturón de cuero vacuno engrasado con un exclusivo bordado en tientos de cuero de 15 cm situado a la altura de la cadera. Pase (ancho del cinto): 35 mm. Confeccionado en 100% cuero vacuno genuino.",
+    "image": "/images/cintos/219.jpg",
+    "properties": [
+      "35 mm",
+      "Bordado Artesanal",
+      "Marrón"
+    ]
+  },
+  {
+    "article": "AC-218",
+    "name": "Cinto Trenzado Trigo",
+    "description": "Cinturón de cuero vacuno engrasado con un delicado bordado de espigas en tientos de cuero de 15 cm a la altura de la cadera. Pase (ancho del cinto): 35 mm. Fabricado artesanalmente en 100% cuero vacuno legítimo.",
+    "image": "/images/cintos/218.jpg",
+    "properties": [
+      "35 mm",
+      "Bordado Artesanal",
+      "Marrón"
+    ]
+  },
+  {
+    "article": "AC-569",
+    "name": "Cinturon Huron con Aplique",
+    "description": "Cinturón de cuero vacuno con grabado estilo símil trenzado. Presenta apliques protectores de cuero engrasado en la zona de los agujeros, costuras reforzadas y un distinguido pasador con vivos a tono. Pase (ancho del cinto): 35 mm. Fabricación 105% en cuero vacuno artesanal.",
+    "image": "/images/cintos/569.jpg",
+    "properties": [
+      "35 mm",
+      "100% Cuero Vacuno",
+      "Marrón, Negro"
+    ]
+  },
+  {
+    "article": "AC-570",
+    "name": "Cinturon Huron Doble Pasador",
+    "description": "Cinturón de cuero vacuno con grabado premium que emula un trenzado. Posee doble pasador confeccionado en cuero engrasado para un calce y ajuste óptimos. Pase (ancho del cinto): 35 mm. Elaborado en 100% cuero vacuno genuino.",
+    "image": "/images/cintos/570.jpg",
+    "properties": [
+      "35 mm",
+      "100% Cuero Vacuno",
+      "Marrón, Negro"
+    ]
+  },
+  {
+    "article": "AC-431",
+    "name": "Cinto Trenzado 3 Partes",
+    "description": "Cinturón trenzado de diseño artesanal confeccionado en tres partes de cuero vacuno seleccionado, acopladas con finos herrajes metálicos. Pase (ancho del cinto): 30 mm. Hecho en 100% cuero vacuno de alta calidad.",
+    "image": "/images/cintos/431.jpg",
+    "properties": [
+      "30 mm",
+      "100% Cuero Vacuno",
+      "Suela"
+    ]
+  },
+  {
+    "article": "AC-10",
+    "name": "Cinto Trenzado Eslabón",
+    "description": "Cinturón tejido de cuero vacuno estilo Breage, compuesto por un trenzado complejo de 5 tientos tubulares (uno de ellos con relieve grabado). Pase (ancho del cinto): 40 mm. Fabricado en 100% cuero vacuno genuino.",
+    "image": "/images/cintos/10.jpg",
+    "properties": [
+      "40 mm",
+      "100% Cuero Vacuno",
+      "Tabaco"
+    ]
+  },
+  {
+    "article": "AC-468",
+    "name": "Cinto Panama",
+    "description": "Cinturón confeccionado en tela tipo Panamá de alta densidad, combinado con vivos, pasador y aplique en cuero engrasado legítimo. Pase (ancho del cinto): 35 mm. Ideal para un look casual y veraniego.",
+    "image": "/images/cintos/468.jpg",
+    "properties": [
+      "35 mm",
+      "Tela y Cuero",
+      "Beige, Azul, Verde"
+    ]
+  },
+  {
+    "article": "AC-506",
+    "name": "Cinto Breagestone sin Costura",
+    "description": "Cinturón de cuero vacuno estilo Breage con terminación al corte sin costura y doble pasador. Una pieza minimalista de gran espesor y alta resistencia. Pase (ancho del cinto): 35 mm. 100% cuero vacuno de primera calidad.",
+    "image": "/images/cintos/506.jpg",
+    "properties": [
+      "35 mm",
+      "100% Cuero Vacuno",
+      "Marrón, Suela, Negro"
+    ]
+  },
+  {
+    "article": "AC-507",
+    "name": "Cinto Breagestone con Costura",
+    "description": "Cinturón de cuero vacuno estilo Breage con costuras perimetrales reforzadas a tono y doble pasador. Pase (ancho del cinto): 35 mm. Confeccionado en 100% cuero vacuno seleccionado.",
+    "image": "/images/cintos/507.jpg",
+    "properties": [
+      "35 mm",
+      "100% Cuero Vacuno",
+      "Negro, Suela, Marrón"
+    ]
+  },
+  {
+    "article": "AC-223",
+    "name": "Cinto Loin",
+    "description": "Cinturón de cuero vacuno engrasado con relleno bombeado (con lomo) y hebilla forrada artesanalmente en cuero a tono. Pase (ancho del cinto): 35 mm. Confeccionado en 100% cuero vacuno legítimo.",
+    "image": "/images/cintos/223.jpg",
+    "properties": [
+      "35 mm",
+      "100% Cuero Vacuno",
+      "Azul, Marrón, Bordó"
+    ]
+  },
+  {
+    "article": "AC-469",
+    "name": "Cinto Nautical",
+    "description": "Diseño náutico de vanguardia. Variante Azul: Confeccionado en cuero vacuno flouter azul con pasador y tiento pasante en cuero engrasado sobre base de PU beige. Variante Marrón: Fabricado en cuero engrasado con detalles artesanales. Pase (ancho del cinto): 35 mm.",
+    "image": "/images/cintos/469.jpg",
+    "properties": [
+      "35 mm",
+      "Flouter / Engrasado",
+      "Marrón, Azul"
+    ]
+  },
+  {
+    "article": "AC-911",
+    "name": "Cinto Croco",
+    "description": "Cinturón fabricado en cuero vacuno con un relieve grabado estilo cocodrilo de alta definición y doble pasador a tono. Pase (ancho del cinto): 35 mm. Confección premium en 100% cuero vacuno.",
+    "image": "/images/cintos/911.jpg",
+    "properties": [
+      "35 mm",
+      "100% Cuero Vacuno",
+      "Suela, Negro"
+    ]
+  },
+  {
+    "article": "AC-455",
+    "name": "Cinto Bordado Victory",
+    "description": "Cinturón de cuero vacuno Victory grabado con bordado artesanal y doble costura de refuerzo tanto en el cuerpo como en el pasador. Pase (ancho del cinto): 35 mm. Confección 100% cuero vacuno genuino.",
+    "image": "/images/cintos/455.jpg",
+    "properties": [
+      "35 mm",
+      "Bordado Artesanal",
+      "Suela, Marrón, Negro"
+    ]
+  },
+  {
+    "article": "AC-reversible",
+    "name": "Cinto Reversible descarne",
+    "description": "Cinturón reversible doble faz confeccionado en cuero descarne de alta calidad con hebillas surtidas. Pase (ancho del cinto): 30 mm o 35 mm.",
+    "image": "/images/cintos/reversible.jpeg",
+    "properties": [
+      "30 mm / 35 mm",
+      "Cuero Descarne",
+      "Hebillas Surtidas"
+    ]
+  }
+]
